@@ -1,0 +1,9 @@
+weather_analytics:
+  target: dev
+
+  outputs:
+
+    dev:
+      type: duckdb
+      path: weather_analytics.duckdb
+      threads: 4

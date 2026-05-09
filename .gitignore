@@ -5,3 +5,5 @@ __pycache__/
 *.duckdb
 target/
 dbt_packages/
+cache/
+notebooks/

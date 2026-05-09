@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: weather_silver
+    tables:
+      - name: weather_parquet
+        external:
+          location: "../cache/*.parquet"
+          file_format: parquet
