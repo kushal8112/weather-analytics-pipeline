@@ -29,5 +29,6 @@ SILVER_CONTAINER = "silver"
 OPEN_METEO_WEBSITE_URL = "https://api.open-meteo.com/v1/forecast"
 
 # Folder paths
-ROOT_FOLDER = r"C:\Users\anush\OneDrive\Desktop\weather-analytics-pipeline"
+# ROOT_FOLDER = r"C:\Users\anush\OneDrive\Desktop\weather-analytics-pipeline"
+ROOT_FOLDER = Path(__file__).resolve().parents[1]
 CACHE_FOLDER_PATH = os.path.join(ROOT_FOLDER, "cache")

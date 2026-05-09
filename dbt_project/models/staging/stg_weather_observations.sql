@@ -49,7 +49,7 @@ SELECT
 
     CURRENT_TIMESTAMP AS model_run_timestamp
 
-FROM read_parquet('../cache/*.parquet')
+FROM read_parquet('../cache/**/*.parquet')
 
 WHERE city IS NOT NULL
   AND time IS NOT NULL
