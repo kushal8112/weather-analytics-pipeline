@@ -30,7 +30,7 @@ jobs:
         run: |
           python ingestion/fetch_weather.py
 
-            - name: Check generated parquet files
+      - name: Check generated parquet files
         run: |
           pwd
           find cache -type f || true
